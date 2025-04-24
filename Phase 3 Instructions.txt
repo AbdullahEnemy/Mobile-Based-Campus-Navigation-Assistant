@@ -1,0 +1,5 @@
+Yolo 8 model(name = best (2).pt)
+Pytorch framework
+The dataset is labelled and added here just in case you donot need to use it you have the trained model and code to run the trained model
+The Code will find the distance from multiple designated points and then take average of that distance for better results
+Contact me for any confusion Husnainasghar@gmail.com
