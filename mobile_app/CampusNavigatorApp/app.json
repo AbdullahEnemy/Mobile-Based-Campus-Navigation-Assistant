@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "plugins": [
+      "expo-image-picker"
+    ],
+    "name": "Campus Navigator App",
+    "slug": "CampusNavigatorApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff",
+        "permissions": [
+          "CAMERA"
+        ]
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.suhaib19.CampusNavigatorApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e83d4f9b-6612-4fd9-96f9-8e0a06faec79"
+      }
+    }
+  }
+}
